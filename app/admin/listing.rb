@@ -1,4 +1,5 @@
 ActiveAdmin.register Listing do
+  permit_params :title, :description, :contact_email, :contact_phone
 
 
   # See permitted parameters documentation:
